@@ -4,7 +4,7 @@ import axios from "axios";
 export default function Register() {
   const [data, setData] = useState({ name: "", email: "", password: "" });
 
-  const BASE_URL = "https://lost-found-project-tq4w.onrender.com";
+  const BASE_URL = "https://lost-found-project-w5c2.onrender.com";
 
   const handleRegister = async () => {
     try {
